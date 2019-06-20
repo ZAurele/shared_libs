@@ -14,7 +14,7 @@ def ensure_file(filename):
 def save_as_json(filename,data,verbose): 
     ensure_file(filename)
     if verbose:
-        print('Write json file to %s'%filename)
+        print('Write json file to output %s'%filename)
 
     # Writing JSON data
     with open(filename, 'w') as f:
